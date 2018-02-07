@@ -29,11 +29,11 @@ if (!is_null($events['events'])) {
 				];
 			}
 		}
-			else if($text == 'test'){
+			else if($text == 'CPU'){
 				// Build message to reply back
 				$messages = [
 					'type' => 'text',
-					'text' => 'CPU'
+					'text' => 'หน่วยรับข้อมูล'
 				];
 			}
 		
