@@ -21,14 +21,6 @@ if (!is_null($events['events'])) {
 					'text' => 'สวัสดีค่ะ'
 				];
 			}
-			else if($text == 'test'){
-				// Build message to reply back
-				$messages = [
-					'type' => 'text',
-					'text' => 'ทดสอบๆ'
-				];
-			}
-		}
 			else if($text == 'CPU'){
 				// Build message to reply back
 				$messages = [
@@ -36,6 +28,7 @@ if (!is_null($events['events'])) {
 					'text' => 'หน่วยรับข้อมูล'
 				];
 			}
+		
 		
 			// Make a POST Request to Messaging API to reply to sender
 			$url = 'https://api.line.me/v2/bot/message/reply';
